@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class RestControllerExample {
 
-	
+
+	String s="Hi laxmikanta you are lifesever";
+
+	String ss="Hi laxmikanta";
 	@GetMapping("/laxmi")
 	public String Example( Model model) {
 		
