@@ -15,4 +15,11 @@ public class RestControllerExample {
 		model.addAttribute("msg",s);
 		return "laxmi";
 	}
+	@GetMapping("/laxmiKanta")
+	public String ExampleModel( Model model) {
+		
+		String s="Hi laxmikantaWelcome to Our Company..";
+		model.addAttribute("msg",s);
+		return "laxmi";
+	}
 }
