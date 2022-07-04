@@ -11,8 +11,13 @@ public class RestControllerExample {
 	String s="Hi laxmikanta you are lifesever";
 
 	String ss="Hi laxmikanta";
+
 	int a=100;
 	int b=200;
+
+	String laxmi="laxmikanta";
+	double d=100000.99;
+
 	@GetMapping("/laxmi")
 	public String Example( Model model) {
 		
